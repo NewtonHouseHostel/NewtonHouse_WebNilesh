@@ -131,14 +131,14 @@ export default function Activities() {
             </p>
 
             <div className="hariyali-images">
-              <img src="Gallery/se1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/se2.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/se3.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/se4.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
+              <img src="assets/Activities/se1.jpg" alt="" srcset="" width="220" />
+              <img src="assets/Activities/se2.jpg" alt="" srcset="" width="220" />
+              <img src="assets/Activities/se3.jpg" alt="" srcset="" width="220" />
+              <img src="assets/Activities/se4.jpg" alt="" srcset="" width="220" />
+              <img src="assets/Activities/1.jpg" alt="" srcset="" width="220" />
+              <img src="assets/Activities/1.jpg" alt="" srcset="" width="220" />
+              <img src="assets/Activities/1.jpg" alt="" srcset="" width="220" />
+              <img src="assets/Activities/1.jpg" alt="" srcset="" width="220" />
             </div>
           </div>{" "}
           <hr />
