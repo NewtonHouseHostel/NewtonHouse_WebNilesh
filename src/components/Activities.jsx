@@ -1,9 +1,32 @@
+import se1 from '../assets/Activities/se1.jpg'
+import se2 from '../assets/Activities/se2.jpg'
+import se3 from '../assets/Activities/se3.jpg'
+import se4 from '../assets/Activities/se4.jpg'
+import sb1 from '../assets/Activities/sb1.jpg'
+import sb2 from '../assets/Activities/sb2.jpg'
+import sb3 from '../assets/Activities/sb3.jpg'
+import sb4 from '../assets/Activities/sb4.jpg'
+import sb5 from '../assets/Activities/sb5.jpg'
+import sb6 from '../assets/Activities/sb6.jpg'
+import sb7 from '../assets/Activities/sb7.jpg'
+import comp1 from '../assets/Activities/comp1.jpg'
+import comp2 from '../assets/Activities/comp2.jpg'
+import comp3 from '../assets/Activities/comp3.jpg'
+import comp4 from '../assets/Activities/comp4.jpg'
+import comp5 from '../assets/Activities/comp5.jpg'
+import comp6 from '../assets/Activities/comp6.jpg'
+import comp7 from '../assets/Activities/comp7.jpg'
+import comp8 from '../assets/Activities/comp8.jpg'
+import one from '../assets/Activities/1.jpg'
+import jjh1 from '../assets/Activities/jjh.jpg'
+
+
 export default function Activities() {
   return (
     <>
-      <div className="contentbody">
+      <div className="flex justify-center w-4/5 m-auto">
         <div className="matter">
-          <div className="swachhbharat, border">
+          <div className="swachhbharat pt-4 pb-4 border-b-black ">
             <span>
               <h1 className="h1fonter">Swachh Bharat Mission:</h1>{" "}
             </span>
@@ -15,36 +38,36 @@ export default function Activities() {
             </p>
 
             <div className="hariyali-images">
-              <img src="Gallery/sb1.jpg" alt="img" srcset="" width="220" />
+              <img src={sb1} alt="img" srcset="" width="220" />
               <img
-                src="Gallery/sb2.jpg"
+                src={sb2}
                 alt="img"
                 srcset=""
                 height="180"
                 width="220"
               />
-              <img src="Gallery/sb3.jpg" alt="img" srcset="" width="220" />
+              <img src={sb3} alt="img" srcset="" width="220" />
               <img
-                src="Gallery/sb4.jpg"
+                src={sb4}
                 alt="img"
                 srcset=""
                 width="220"
                 height="180"
               />
               <img
-                src="Gallery/sb5.jpg"
+                src={sb5}
                 alt="img"
                 srcset=""
                 height="180"
                 width="220"
               />
-              <img src="Gallery/sb6.jpg" alt="img" srcset="" width="220" />
-              <img src="Gallery/sb7.jpg" alt="img" srcset="" width="220" />
+              <img src={sb6} alt="img" srcset="" width="220" />
+              <img src={sb7} alt="img" srcset="" width="220" />
               <img src="Gallery/sbm8.jpg" alt="img" srcset="" width="220" />
             </div>
           </div>{" "}
           <hr />
-          <div className="hariyali, border">
+          <div className="hariyali">
             <h1 className="h1fonter"> Jal-Jeevan-Hariyali Mission:</h1>
             <p>
               {" "}
@@ -56,18 +79,18 @@ export default function Activities() {
             </p>
 
             <div className="hariyali-images">
-              <img src="Gallery/jjh.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/1.jpg" alt="" srcset="" width="220" />
+              <img src={jjh1} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
             </div>
           </div>{" "}
           <hr />
-          <div className="competition, border">
+          <div className="competition">
             <h1 className="h1fonter">Competition:</h1>
             <p>
               {" "}
@@ -84,32 +107,32 @@ export default function Activities() {
 
             <div className="hariyali-images">
               <img
-                src="Gallery/comp1.jpg"
+                src={comp1}
                 alt=""
                 srcset=""
                 width="220"
                 height="175"
               />
-              <img src="Gallery/comp2.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/comp3.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/comp4.jpg" alt="" srcset="" width="220" />
-              <img src="Gallery/comp5.jpg" alt="" srcset="" width="220" />
+              <img src={comp2} alt="" srcset="" width="220" />
+              <img src={comp3} alt="" srcset="" width="220" />
+              <img src={comp4} alt="" srcset="" width="220" />
+              <img src={comp5} alt="" srcset="" width="220" />
               <img
-                src="Gallery/comp6.jpg"
-                alt=""
-                srcset=""
-                width="220"
-                height="175"
-              />
-              <img
-                src="Gallery/comp7.jpg"
+                src={comp6}
                 alt=""
                 srcset=""
                 width="220"
                 height="175"
               />
               <img
-                src="Gallery/comp8.jpg"
+                src={comp7}
+                alt=""
+                srcset=""
+                width="220"
+                height="175"
+              />
+              <img
+                src={comp8}
                 alt=""
                 srcset=""
                 width="220"
@@ -118,9 +141,9 @@ export default function Activities() {
             </div>
           </div>{" "}
           <hr />
-          <div className="exhibition, border">
+          <div className="exhibition">
             <h1 className="h1fonter">Science Exhibition:</h1>
-            <p>
+            <p className=''>
               {" "}
               The borders of the hostel follow the path of their seniors and
               celebrate Saraswati Pooja every year on Basant Panchami by
@@ -131,14 +154,14 @@ export default function Activities() {
             </p>
 
             <div className="hariyali-images">
-              <img src="assets/Activities/se1.jpg" alt="" srcset="" width="220" />
-              <img src="assets/Activities/se2.jpg" alt="" srcset="" width="220" />
-              <img src="assets/Activities/se3.jpg" alt="" srcset="" width="220" />
-              <img src="assets/Activities/se4.jpg" alt="" srcset="" width="220" />
-              <img src="assets/Activities/1.jpg" alt="" srcset="" width="220" />
-              <img src="assets/Activities/1.jpg" alt="" srcset="" width="220" />
-              <img src="assets/Activities/1.jpg" alt="" srcset="" width="220" />
-              <img src="assets/Activities/1.jpg" alt="" srcset="" width="220" />
+              <img src={se1} alt="" srcset="" width="220" />
+              <img src={se2} alt="" srcset="" width="220" />
+              <img src={se3} alt="" srcset="" width="220" />
+              <img src={se4} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
+              <img src={one} alt="" srcset="" width="220" />
             </div>
           </div>{" "}
           <hr />

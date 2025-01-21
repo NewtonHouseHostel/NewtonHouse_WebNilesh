@@ -1,9 +1,9 @@
 export default function About() {
     return (
        <>
-                <h2>About</h2>
-    <div>
-      <div className="">
+                <h2 className="h1fonter pl-12 pt-12">About</h2>
+    <div className="flex justify-between  m-auto gap-12 p-8" >
+      <div className="bg-red-100 p-4 rounded-md">
         <p>
           <b>P</b>atna Science College, a constituent unit of Patna University,
           was established in 1927. Initially it was opened as the Science
@@ -37,6 +37,7 @@ export default function About() {
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          className="border-2 rounded-lg"
         ></iframe>
       </div>
     </div>
