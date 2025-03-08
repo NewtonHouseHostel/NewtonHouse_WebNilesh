@@ -7,6 +7,8 @@ function Footer() {
       <div className="bg-gradient-to-r from-red-800 via-red-600 to-red-800 w-full h-56 flex justify-between px-10 font-mons py-5 ">
         <div>
           <p className="font-medium">Copyright© Newton House 2024-2025</p>
+          <a href="#" target="_blank"> Visitors:
+              <img src="https://hitwebcounter.com/counter/counter.php?page=19459800&style=0024&nbdigits=5&type=page&initCount=0"      title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>    
         </div>
 
         <div>

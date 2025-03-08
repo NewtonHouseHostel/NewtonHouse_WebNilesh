@@ -8,10 +8,12 @@
 @tailwind utilities;
 
 
-
+body{
+  font-size: 16px;
+}
 
 .head{
-  font-size: 400%;
+  font-size: 5vw;
   font-weight: bolder;
   font-family: "Sansita", sans-serif;
   font-weight: 900;
