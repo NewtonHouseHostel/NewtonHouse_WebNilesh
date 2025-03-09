@@ -2,7 +2,7 @@ export default function About() {
     return (
        <>
                 <h2 className="h1fonter pl-12 pt-12">About</h2>
-    <div className="flex justify-between  m-auto gap-12 p-8" >
+    <div className="flex justify-between  m-auto gap-12 p-8 about" >
       <div className="bg-red-100 p-4 rounded-md">
         <p>
           <b>P</b>atna Science College, a constituent unit of Patna University,
