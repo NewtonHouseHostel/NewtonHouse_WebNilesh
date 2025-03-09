@@ -80,3 +80,15 @@ body{
  
   line-height: 3vh;
 }
+
+@media screen and (max-width: 720px) {
+  .footer{
+    display: block;
+    height: fit-content;
+
+  }
+  .imp-link{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
