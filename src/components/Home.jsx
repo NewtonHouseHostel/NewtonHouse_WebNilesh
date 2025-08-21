@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NH_Pic from '../assets/Homepage/NH_Pic.jpg'
 import profbhavuk from '../assets/Homepage/profbhavuk.jpg'
-import dnthakur from '../assets/Homepage/dnthakur.jpeg'
+import principal from '../assets/Homepage/principal.png'
 
 export default function Home() {
   return (
@@ -75,8 +75,8 @@ export default function Home() {
 
           <div className="flex justify-center text-center p-4  ">
             <div>
-              <img src={dnthakur} alt="" width="375px" />
-              <p>Prof. Dr. DN Thakur </p>
+              <img src={principal} alt="" width="375px" />
+              <p>Prof. Dr. Alka </p>
               <h3>Principal</h3>
             </div>
 
