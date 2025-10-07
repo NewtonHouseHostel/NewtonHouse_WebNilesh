@@ -1,4 +1,4 @@
-import notice1 from '../assets/Notice/notice1.jpg'
+
 import notice2 from '../assets/Notice/notice2.jpg'
 import notice3 from '../assets/Notice/notice3.jpg'
 import newgif from '../assets/new.webp'
@@ -14,25 +14,17 @@ export default function Notice() {
             <a href={notice3} >
               {" "}
               <h4>
-                HOSTEL FORM & DOCUMENTS SUBMISSION NOTICE <img src={newgif} alt="" srcset="" className='inline-block'/> 
+                16.09.2025 HOSTEL FORM & DOCUMENTS SUBMISSION NOTICE <img src={newgif} alt="" srcset="" className='inline-block'/> 
               </h4>
             </a>
           </div>
-          <div className="underline">
-            <a href={notice1} >
-              {" "}
-              <h4>
-                U.G. VOCATIONAL COURSES SEMESTER-2 EXAMINATION DATESHEET SESSION
-                (2023-26) <img src={newgif} alt="" srcset="" className='inline-block'/> 
-              </h4>
-            </a>
-          </div>
+        
 
           <div class="notice underline">
             <a href={notice2}>
               {" "}
               <h4>
-                NOTICE TO VACATE ALL BOY'S HOSTEL BY 31-MAY-24
+                29.05.2024 NOTICE TO VACATE ALL BOY'S HOSTEL BY 31-MAY-24
                 <img src={newgif} alt="" srcset="" className='inline-block' />
               </h4>
             </a>
