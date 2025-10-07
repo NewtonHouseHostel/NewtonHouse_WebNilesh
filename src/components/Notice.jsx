@@ -1,5 +1,6 @@
 import notice1 from '../assets/Notice/notice1.jpg'
 import notice2 from '../assets/Notice/notice2.jpg'
+import notice3 from '../assets/Notice/notice3.jpg'
 import newgif from '../assets/new.webp'
 
 export default function Notice() {
@@ -10,11 +11,10 @@ export default function Notice() {
           <h1 className="h1fonter">Latest Notices...</h1>
 
           <div className="underline">
-            <a href={notice1} >
+            <a href={notice3} >
               {" "}
               <h4>
-                U.G. VOCATIONAL COURSES SEMESTER-2 EXAMINATION DATESHEET SESSION
-                (2023-26) <img src={newgif} alt="" srcset="" className='inline-block'/> 
+                HOSTEL FORM & DOCUMENTS SUBMISSION NOTICE <img src={newgif} alt="" srcset="" className='inline-block'/> 
               </h4>
             </a>
           </div>
@@ -38,25 +38,9 @@ export default function Notice() {
             </a>
           </div>
 
-          <div class="notice underline">
-            <a href="">
-              {" "}
-              <h4>
-                U.G. VOCATIONAL COURSES SEMESTER-2 EXAMINATION DATESHEET SESSION
-                (2023-26) <img src={newgif} alt="" srcset="" className='inline-block' />
-              </h4>
-            </a>
-          </div>
+          
 
-          <div class="notice underline">
-            <a href="">
-              {" "}
-              <h4>
-                U.G. VOCATIONAL COURSES SEMESTER-2 EXAMINATION DATESHEET SESSION
-                (2023-26) <img src={newgif} alt="" srcset="" className='inline-block' />
-              </h4>
-            </a>
-          </div>
+          
         </div>
       </div>
     </>
